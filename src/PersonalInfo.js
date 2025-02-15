@@ -4,7 +4,7 @@ function PersonalInfo() {
     // const [lastName, setLastName] = useState("")
 
     const [ firstName, bindFirstName, resetFirstName ] = useInput()
-    const [lastName, bindLastName, resetLastName ] = useInput()
+    const [ lastName, bindLastName, resetLastName ] = useInput()
 
     
     const submitForm = (e) => {

@@ -14,12 +14,12 @@ function Meter() {
     // const Sıfırla = () => {
     //     setNum2(0)
     // }
-    const [num2, Arttır, Azalt, Sıfırla] = useCounter();
+    const [num2, Azalt , Arttır , Sıfırla] = useCounter();
   return (
     <div>
       <h2>Sayı : {num2}</h2>
-      <button onClick={Arttır}>Arttır</button>
       <button onClick={Azalt}>Azalt</button>
+      <button onClick={Arttır}>Arttır</button>
       <button onClick={Sıfırla}>Sıfırla</button>
     </div>
   )
